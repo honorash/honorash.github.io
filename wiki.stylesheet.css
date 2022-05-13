@@ -1,7 +1,7 @@
 body {
 	background-color: white;
 	font: helvetica;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 h1 {
@@ -13,13 +13,13 @@ h1 {
 h2 {
 	font: helvetica;
 	color: black;
-	margin-left: 20px;
+	margin-left: 10px;
 	size: 20px;
 }
 h3 {
 	font: helvetica;
 	color: black;
-	margin-left: 24px;
+	margin-left: 10px;
 	size: 16px;
 
 table, th, td, tr {
@@ -27,36 +27,15 @@ table, th, td, tr {
 }
 
 table {
-	width: 500px;
 	border-collapse: collapse;
 }
 
 th, td {
 	padding: 2px;
 	font: helvetica;
-	font-size: 14px;
+	font-size: 16px;
 	height: 20px;
 	vertical-align: center;
-}
-
-a:link {
-	color: purple;
-	text-decoration: none;
-}
-
-a:visited {
-	color: darkgreen;
-	text-decoration: none;
-}
-
-a:hover {
-	color: hotpink;
-	text-decoration: underline;
-}
-
-a:active {
-	color: brown;
-	text-decoration: underline;
 }
 
 blockquote {
