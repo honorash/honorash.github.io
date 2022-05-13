@@ -8,11 +8,20 @@ h1 {
 	size: 16px;
 }
 
-table, th, td {
+table, th, td, tr {
 	border: 1px solid;
-]
+}
 
 table {
 	width: 500px;
 	border-collapse: collapse;
-]
+}
+
+th, td {
+	padding: 2px;
+	font: helvetica;
+	font-size: 12px;
+	height: 20px;
+	vertical-align: center;
+}
+
