@@ -22,13 +22,13 @@ h3 {
 	margin-left: 24px;
 	size: 16px;
 
-table, th, td {
+table, th, td, tr {
 	border: 1px solid;
 	border-collapse: collapse;
 }
 
 table {
-	width: 700px;
+	width: 500px;
 }
 
 th, td {
@@ -58,9 +58,3 @@ a:active {
 	color: brown;
 	text-decoration: underline;
 }
-
-#responsive-image {
-	width: 70%;
-	height: auto;
-}
-
