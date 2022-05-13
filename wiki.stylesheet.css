@@ -22,7 +22,7 @@ h3 {
 	margin-left: 10px;
 	size: 16px;
 
-table, th, td, tr {
+th, td, tr {
 	border: solid;
 	border-width: 1px;
 	border-color: black;
