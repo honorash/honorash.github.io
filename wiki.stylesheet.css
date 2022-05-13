@@ -38,22 +38,27 @@ th, td {
 	height: 20px;
 	vertical-align: center;
 }
+
 a:link {
 	color: purple;
 	text-decoration: none;
 }
+
 a:visited {
 	color: darkgreen;
 	text-decoration: none;
 }
+
 a:hover {
 	color: hotpink;
 	text-decoration: underline;
 }
+
 a:active {
 	color: brown;
 	text-decoration: underline;
 }
+
 #responsive-image {
 	width: 70%;
 	height: auto;
