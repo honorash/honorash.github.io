@@ -54,4 +54,8 @@ a:active {
 	color: brown;
 	text-decoration: underline;
 }
+#responsive-image {
+	width: 100%;
+	height: auto;
+}
 
