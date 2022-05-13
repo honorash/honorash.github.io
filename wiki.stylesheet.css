@@ -23,7 +23,9 @@ h3 {
 	size: 16px;
 
 table, th, td, tr {
-	border: 1px solid;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
 }
 
 table {
