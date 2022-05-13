@@ -1,0 +1,18 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	color: darkgray;
+	margin-left: 10px;
+	size: 16px;
+}
+
+table, th, td {
+	border: 1px solid;
+]
+
+table {
+	width: 500px;
+	border-collapse: collapse;
+]
