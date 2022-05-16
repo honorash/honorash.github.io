@@ -12,6 +12,7 @@ h1 {
 	size: 24px;
 	text-transform:lowercase;
 }
+
 h2 {
 	font: helvetica;
 	color: black;
@@ -19,14 +20,12 @@ h2 {
 	size: 20px;
 	text-transform:lowercase;
 }
+
 h3 {
 	font: helvetica;
 	color: black;
 	margin-left: 10px;
 	text-transform:lowercase;
-
-table {
-	border-collapse: collapse;
 }
 
 th, td {
