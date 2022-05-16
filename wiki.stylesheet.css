@@ -2,6 +2,7 @@ body {
 	background-color: white;
 	font: helvetica;
 	font-size: 14px;
+	text-transform:lowercase;
 }
 
 h1 {
@@ -9,17 +10,20 @@ h1 {
 	color: black;
 	margin-left: 10px;
 	size: 24px;
+	text-transform:lowercase;
 }
 h2 {
 	font: helvetica;
 	color: black;
 	margin-left: 10px;
 	size: 20px;
+	text-transform:lowercase;
 }
 h3 {
 	font: helvetica;
 	color: black;
 	margin-left: 10px;
+	text-transform:lowercase;
 
 table {
 	border-collapse: collapse;
@@ -32,12 +36,15 @@ th, td {
 	font-size: 16px;
 	height: 20px;
 	vertical-align: center;
+	text-transform:lowercase;
 }
 
 blockquote {
 	display: block;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-left: 40px;
 	margin-right: 40px;
+	font: 20px comicsans pink;
+	text-transform:lowercase;
 }
