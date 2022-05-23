@@ -69,3 +69,8 @@ img {
 solid {
     border-top: 3px solid #bbb;
 }
+@media (max-width: 414px{
+    body {
+        max-width: 100%;
+    }
+}
