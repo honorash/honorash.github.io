@@ -1,15 +1,8 @@
-:root {
-  --high: #fff000;
-  --dark: #000000;
-  --color: #6bc7be;
-  --calm: #EFEFF0;
-}
-
 .centre {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 10px;
     width: 90%;
 }
 .con {
@@ -22,60 +15,24 @@
   text-decoration: none !important;
   line-height: 1 !important;
   position: sticky;
-  bottom: 1.2em;
-  padding: 0.8em;
+  bottom: 20px;
+  padding: 10px;
   font-family: sans-serif;
+  color: #EFEFF0 !important;
+  background: #47624F;
   border-radius: 100px;
   place-self: end;
-  margin-top: 110vh;
-  margin-right: 0.8em;
+  margin-top: 180vh;
+  margin-right: 10px;
   white-space: nowrap;
 }
 
-.theme-switches {
-  display: flex;
-  justify-content: right;
-}
-
-.switch {
-  border: 1px solid black;
-  vertical-align: bottom;
-  padding: 0 0.3125em;
-  font-size: 0.8em;
-  overflow-wrap: break-word;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.switch:hover {
-  transform: rotate(3deg);
-  transition: 0.2s ease-in-out;
-}
-
-#switch-1 {
-  background-color: var(--high);
-  color: black;
-}
-
-#switch-2 {
-    background-color: var(--calm);
-    color: lightcoral;
-}
-
-#switch-3 {
-  background-color: var(--dark);
-  color: white;
-}
-
-#switch-4 {
-  background-color: var(--color);
-  color: hotpink;
-}
-
 body {
+    background-color: #EFEFF0;
+    color: #47624F;
     display: grid;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     grid-template-columns: auto 0px;
     margin-bottom: 18px;
     margin-left: 22px;
@@ -86,34 +43,51 @@ body {
 }
 
 h1 {
+    color: #47624F;
     font-family: Arial Rounded MT Bold, sans-serif;
-    font-size: 2em;
-    margin-top: 0px;
+    font-size: 25px;
+
 }
 
 h2 {
+    color: #47624F;
     font-family: Arial Rounded MT Bold, sans-serif;
-    font-size: 1.6em;
+    font-size: 20px;
     text-decoration: underline;
     text-decoration-style: wavy;
 }
 
 h3 {
+    color: #47624F;
     font-family: Arial Rounded MT Bold, sans-serif;
-    font-size: 1.2em;
+    font-size: 14px;
     text-decoration: none;
 
 }
-
+html[data-theme='high-contrast'] {
+  --text-color-normal: white;
+  --text-color-light: white;
+  --text-color-richer: white;
+  --text-color-highlight: white;
+  --link-color: white;
+  --bright-color: white;
+  --error-color: white;
+  --button-background: white;
+  --button-text-color: black;
+  --background: black;
+  --popup-background: black;
+}
 a:link {
+    color: #8A4F7D;
     text-decoration: none;
 }
 
 a:visited {
-
+    color: #887880;
 }
 
 a:hover {
+    color: #EF8275;
     text-decoration: underline;
     text-decoration-style: wavy;
 }

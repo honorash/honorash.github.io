@@ -1,0 +1,40 @@
+:root {
+  --back-color: #fff000;
+  --primary-color: #000;
+}
+
+a:link {
+  color: var(--link-text);
+  text-decoration: underline !important;
+}
+
+a:visited {
+  color: var(--visited-link);
+}
+
+a:hover {
+  color: var(--back-color);
+  background-color: var(--primary-color);
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+
+h1 {
+  color: var(--header-text);
+}
+
+h2 {
+  color: var(--header-text);
+}
+
+h3 { 
+  color: var(--header-text);
+}
+
+.top {
+  color: var(--back-color) !important;
+  background-color: var(--primary-color);
+}

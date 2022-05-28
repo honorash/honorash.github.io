@@ -1,0 +1,42 @@
+:root {
+  --back-color: #EFEFF0;
+  --primary-color: #47624F;
+  --header-text: #47624F;
+  --link-text: #8A4F7D;
+  --visited-link: #887880;
+  --link-hover: #EF8275;
+}
+
+a:link {
+  color: var(--link-text);
+}
+
+a:visited {
+  color: var(--visited-link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+
+h1 {
+  color: var(--header-text);
+}
+
+h2 {
+  color: var(--header-text);
+}
+
+h3 { 
+  color: var(--header-text);
+}
+
+.top {
+  color: var(--back-color) !important;
+  background-color: var(--primary-color);
+}
